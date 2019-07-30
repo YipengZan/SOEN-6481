@@ -1,0 +1,43 @@
+\chapter{Problem Domain: Problem 4}
+\vspace{8pt}
+
+\section{Domain Diagram}
+
+\begin{figure}[H]
+\centering  %图片全局居中
+
+\label{Fig.sub.1}
+\includegraphics[width=1\textwidth]{images/class_diagram.jpg}
+\caption{Domain Model}
+\label{Fig.main}
+\end{figure}
+\vspace{50pt}
+
+\section{Concept Relationship}
+
+\begin{flushleft} 
+
+\vspace{5pt}
+\noindent
+1)	Concepts:\\
+calculator, screen, operator, memory, special number button, circular area button, circular circumference button
+
+\vspace{8pt}
+\\
+\noindent
+2)	Relationship:\\
+screen ----------$<$$>$ calculator (aggregate relationship)
+\\
+operator ----------$<$$>$ calculator (aggregate relationship)
+\\
+memory ----------$<$$>$ calculator (aggregate relationship)
+
+\\
+special number button ----------- operator (association relationship)
+\\
+circular area button ------------- operator (association relationship)
+\\
+circular circumference button ------------- operator (association relationship)
+
+
+\end{flushleft}
